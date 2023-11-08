@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg-zinc-50 text-zinc-950 relative h-[5000px]`}
+        className={`${inter.className} bg-zinc-50 text-zinc-950 relative pt-28 sm:pt-36 h-[5000px]`}
       >
         <div className="bg-[#fbe2e3] absolute -z-10 rounded-full blur-[10rem] w-[50%] h-[32rem] top-0 left-0"></div>
         <div className="bg-[#dbd7fb] absolute -z-10 rounded-full blur-[10rem] w-[50%] h-[32rem] top-0 right-0"></div>
