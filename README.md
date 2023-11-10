@@ -23,7 +23,7 @@ npm install
 - **Lint:** `npm run lint`
 
 
-## Dependencies
+### Dependencies
 
 - **[clsx](https://www.npmjs.com/package/clsx):** ^2.0.0
 - **[framer-motion](https://www.npmjs.com/package/framer-motion):** ^10.16.4
@@ -46,7 +46,7 @@ npm install
 - **[tailwindcss](https://www.npmjs.com/package/tailwindcss):** ^3.3.0
 - **[typescript](https://www.npmjs.com/package/typescript):** ^5
 
-## Acknowledgments
+### Acknowledgments
 
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
