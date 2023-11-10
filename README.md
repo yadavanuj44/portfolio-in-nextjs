@@ -3,6 +3,11 @@
 A modern portfolio website built with React & NextJS 14 (App Router & Server Actions), TypeScript, Tailwind CSS, Framer Motion, React Email & Resend. This repository contains the source code for my personal portfolio showcasing my projects, skills, and experiences.
 
 
+## Visit Live
+
+Visit the live site at [https://anujyadavportfolio.vercel.app/](https://anujyadavportfolio.vercel.app/)
+
+
 Feel free to customize and use this as template for your own portfolio!
 
 
