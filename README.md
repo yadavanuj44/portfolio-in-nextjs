@@ -1,6 +1,26 @@
 ## Anuj Yadav Portfolio 
 
-A modern portfolio website built with React & NextJS 14 (App Router & Server Actions), TypeScript, Tailwind CSS, Framer Motion, React Email & Resend.
+A modern portfolio website built with React & NextJS 14 (App Router & Server Actions), TypeScript, Tailwind CSS, Framer Motion, React Email & Resend.This repository contains the source code for my personal portfolio built using Next.js. The portfolio showcases my projects, skills, and experiences.
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have Node.js installed on your machine.
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/portfolio-in-nextjs.git
+cd portfolio-in-nextjs
+npm install
+
+## Available Scripts
+
+- **Development:** `npm run dev`
+- **Build:** `npm run build`
+- **Start:** `npm start`
+- **Lint:** `npm run lint`
 
 
 ## Dependencies
