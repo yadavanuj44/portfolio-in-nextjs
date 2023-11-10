@@ -4,13 +4,15 @@ import "./globals.css";
 import Header from "@/components/header";
 import ActiveSectionContextProvider from "@/context/active-section-context";
 import ThemeContextProvider from "@/context/theme-context";
+import Footer from "@/components/footer";
+import { Toaster } from "react-hot-toast";
+import ThemeSwitch from "@/components/theme-switch";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Anuj Yadav | Portfolio",
-  description:
-    "Anuj is a full-stack developer with more than 2 years of experience.",
+  description: "A full-stack developer with more than 2.5 years of experience.",
 };
 
 export default function RootLayout({
@@ -21,14 +23,15 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <body
-        className={`${inter.className} bg-zinc-50 text-zinc-950 relative pt-28 sm:pt-36 h-[5000px]`}
+        className={`${inter.className} bg-slate-50 text-slate-950 relative dark:bg-slate-900 dark:text-slate-50 dark:text-opacity-90`}
       >
-        <div className="bg-[#fbe2e3] absolute -z-10 rounded-full blur-[10rem] w-[50%] h-[32rem] top-0 left-0"></div>
-        <div className="bg-[#dbd7fb] absolute -z-10 rounded-full blur-[10rem] w-[50%] h-[32rem] top-0 right-0"></div>
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <Header />
             {children}
+            <Footer />
+            <Toaster position="top-right" />
+            <ThemeSwitch />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
       </body>
