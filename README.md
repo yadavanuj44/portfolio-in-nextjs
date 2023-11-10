@@ -2,11 +2,14 @@
 
 A modern portfolio website built with React & NextJS 14 (App Router & Server Actions), TypeScript, Tailwind CSS, Framer Motion, React Email & Resend.This repository contains the source code for my personal portfolio built using Next.js. The portfolio showcases my projects, skills, and experiences.
 
+
 ## Getting Started
+
 
 ### Prerequisites
 
 Make sure you have Node.js installed on your machine.
+
 
 ### Installation
 
@@ -15,6 +18,7 @@ git clone https://github.com/your-username/portfolio-in-nextjs.git
 cd portfolio-in-nextjs
 npm install
 ```
+
 
 ### Available Scripts
 
@@ -36,6 +40,10 @@ npm install
 - **[react-intersection-observer](https://www.npmjs.com/package/react-intersection-observer):** ^9.5.2
 - **[react-vertical-timeline-component](https://www.npmjs.com/package/react-vertical-timeline-component):** ^3.6.0
 - **[resend](https://www.npmjs.com/package/resend):** ^2.0.0
+
+
+## Development Dependencies
+
 - **[@types/node](https://www.npmjs.com/package/@types/node):** ^20
 - **[@types/react](https://www.npmjs.com/package/@types/react):** ^18
 - **[@types/react-dom](https://www.npmjs.com/package/@types/react-dom):** ^18
@@ -46,6 +54,7 @@ npm install
 - **[postcss](https://www.npmjs.com/package/postcss):** ^8
 - **[tailwindcss](https://www.npmjs.com/package/tailwindcss):** ^3.3.0
 - **[typescript](https://www.npmjs.com/package/typescript):** ^5
+
 
 ### Acknowledgments
 
