@@ -14,8 +14,9 @@ Make sure you have Node.js installed on your machine.
 git clone https://github.com/your-username/portfolio-in-nextjs.git
 cd portfolio-in-nextjs
 npm install
+```
 
-## Available Scripts
+### Available Scripts
 
 - **Development:** `npm run dev`
 - **Build:** `npm run build`
